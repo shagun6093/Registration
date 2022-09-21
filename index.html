@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1 ALIGN="CENTER">💢 REGISTRATION FORM 💢</h1>
+    <hr>
+    <form>
+        <table cellspacing="10">
+            <tr>
+                <th>Name of Student:</th>
+                <td><input type="text" size="50"></td>
+            </tr>
+            <tr>
+                <th>Date of Birth</th>
+                <td><input type="date"></td>
+
+                <th>Telephone number</th>
+                <td><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></td>
+
+                <tr>
+                    <th>Blood Group:</th>
+                    <td><input type="text"></td>
+                    <th>Mother Tounge:</th>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th>Address: </th>
+                    <td><input type="text" size="80"></td>
+                    <th>Color:</th>
+                    <td><input type="color"></td>
+                </tr>
+                <tr>
+                    <th>How many Attempts :</th>
+                    <td><input type="number" min="1" max="3"></td>
+             </tr>
+             <tr>
+                 <th>Enter your website URL:</th>
+                 <td><input type="url" placeholder="https://example.com" pattern="https://.*" size="30">
+                 </td>
+             </tr>
+     </table>
+     <hr>
+
+
+
+
+
+
+     <table cellspacing="20">
+         <tr>
+             <th>Gender</th>
+             <td>
+                 <input type="radio" id="huey" name="b" value=" male" checked>
+                 <label for=" male">Male</label>
+                 <input type="radio" id="female" name="b" value="female">
+                 <label for="female">Female</label>
+                 <input type="radio" id="others" name="b" value="others">
+                 <label for="others">Others</label>
+             </td>
+         </tr>
+         <tr>
+             <th>Caste</th>
+             <td><input type="radio" id="huey" name="a" value=" male" checked>
+                 <label for=" male">SC</label>
+                 <input type="radio" id="female" name="a" value="female">
+                 <label for="female">OBC</label>
+                 <input type="radio" id="others" name="a" value="others">
+                 <label for="others">OPEN</label>
+                 <input type="radio" id="others" name="a" value="others">
+                 <label for="others">OTHERS</label>
+             </td>
+         </tr>
+     </table>
+     <hr>
+
+     <table cellspacing="10">
+         <tr>
+             <th>Documents</th>
+             <th>Upload</th>
+         </tr>
+         <tr>
+             <td>Photograph</td>
+             <td> <input type="file"> </td>
+         </tr>
+         <tr>
+             <td>Addhar card</td>
+             <td> <input type="file"> </td>
+         </tr>
+         <tr>
+             <td>10th Marksheet</td>
+             <td> <input type="file"> </td>
+         </tr>
+         <tr>
+             <td>12th Marksheet</td>
+             <td> <input type="file"> </td>
+         </tr>
+
+     </table>
+     <hr>
+
+
+
+ </form>
+ <form align="center">
+     <label>All THE DEATILS ENTERED ABOVE ARE CORRECT:</label>
+     <input type="checkbox">
+     <hr>
+
+     <input type="reset">
+     <input type="submit">
+ </form>
+</body>
+
+</html>
